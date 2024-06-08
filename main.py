@@ -45,7 +45,7 @@ def draw_buttons():
 
 def load_and_draw_image(image_path):
     image = pygame.image.load("img/" + image_path)
-    image = pygame.transform.scale(image, (400, 400))  # Resmi yeniden boyutlandır
+    image = pygame.transform.scale(image, (400, 400))
     screen.blit(image, (200, 100))
 
 
